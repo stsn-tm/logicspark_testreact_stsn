@@ -1,0 +1,38 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Todo__input {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 3px solid #3a7bd5;
+}
+
+.Button {
+  height: 48px;
+  width: 120px;
+  background-color: #ff0266;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+}
+
+.Button:hover {
+  background-color: rgb(223, 100, 121);
+}
+
+.Button:active {
+  background-color: rgb(235, 137, 162);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
