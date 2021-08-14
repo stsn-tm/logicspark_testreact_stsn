@@ -9,8 +9,8 @@ function ImageCard() {
         <Card.Img variant="flush" src="./images/snooze-wallpaper.jpg" />
         <Card.Body>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            "They say a person needs just three things to be truly happy in this
+            world: Someone to love, something to do, and something to hope for."
           </Card.Text>
         </Card.Body>
       </Card>
